@@ -1,0 +1,188 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 425px) {
+    html body .header .logo {
+        position: absolute;
+        top: 20px;
+        width: 34% !important;
+    }
+    html body .header .nav-list {
+        margin-left: 0px !important;
+        width: 100% !important;
+        justify-content: left !important;
+    }
+    html body .header .nav-list .nav-bar {
+        flex-direction: column;
+        position: absolute;
+        top: 79px;   
+    }
+    html body .header .nav-list .nav-bar .list-item a {
+        padding: 0px 24px !important;
+    }
+    html body .header {
+        transition: 0.5s all ease;
+    }
+    .burger {
+        top: 43px;
+        left: 360px;
+        display: block !important;
+
+    }
+    .Display{
+        display: none !important;
+    }
+    .height-resp{
+        height: 80px !important;
+    }
+    html body .header .nav-list .nav-bar .list-item:nth-child(1) .my-icon {
+        margin: 0 0 0 240px;
+    }
+    html body .header .nav-list .nav-bar .list-item:nth-child(2) .my-icon {
+        margin: 0 0 0 218px;
+    }
+    html body .header .nav-list .nav-bar .list-item:nth-child(3) .my-icon {
+        margin: 0 0 0 228px;
+    }
+    html body .header .nav-list .nav-bar .list-item:nth-child(4) .my-icon {
+        margin: 0 0 0 203px;
+    }
+    .services {
+        height: 2027px !important;
+        top: 390px !important;
+    }
+    .services .main-services .inner-service {
+        padding-top: 110px;
+        border-left: none !important;
+    }
+    .services .main-services .inner-service .service-para1 p {
+        font-size: 1.015rem !important;
+   
+    }
+    .services .main-services .inner-service .service-para2 p {
+        font-size: 1.015rem !important;
+  
+    }
+    .services .main-services .inner-service .service-para3 p {
+        font-size: 1.015rem !important;
+    
+    }
+    .services .main-services .bonty-moreOne {
+        height: 60px !important;
+        width: 84% !important;
+        background-color: #f1f1f1 !important;
+        bottom: 42px;
+    }
+    .services .main-services .bonty-moreTwo {
+        height: 60px !important;
+        width: 84% !important;
+        background-color: #f1f1f1 !important;
+        bottom: 42px;
+    }
+    .services .main-services .bonty-moreThree {
+        height: 60px !important;
+        width: 84% !important;
+        background-color: #f1f1f1 !important;
+        bottom: 42px;
+    }
+
+    .nicheOne{
+        bottom: 2px !important;
+    }
+    html body .cover .cover-content h1 {
+        font-size: 6rem !important;
+    }
+    html body .cover .cover-content p {
+        font-size: 1rem !important;
+    width: 59% !important;
+    margin: -33px 0 0px 127px !important;
+    }
+    footer .main-footer .footer-call p {
+        font-size: 1.7rem !important;
+ 
+    }
+    .line {
+        bottom: 289px !important;
+    }
+    .services .main-services .service-icon {
+        width: 13% !important;
+    }
+    .services .main-services .service-icon .service-icon {
+        font-size: 1.52em !important;
+    }
+    footer .main-footer {
+        padding-top: 80px !important;
+    }
+    footer .main-footer .footer-map a {
+        font-size: 1.5rem !important;
+    }
+    footer .main-footer .footer-call span {
+        font-size: 1.5rem !important;
+    }
+    .services .your-ans img {
+        height: 85px !important;
+    }
+    html body .clock {
+        top: 990px !important;
+    }
+    footer {
+        height: 990px !important;
+    }
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    html body .header .nav-list .nav-bar .list-item a {
+        padding: 30px 12px !important;
+    }
+    .services .main-services .inner-service {
+        padding-left: 7px !important;
+    }
+    .services .main-services .inner-service .service-para1 p {
+        font-size: 0.77rem;
+    }
+    .services .main-services .inner-service .service-para2 p {
+        font-size: 0.77rem;
+    }
+    .services .main-services .inner-service .service-para3 p {
+        font-size: 0.77rem;
+    }
+    .services .main-services .service-icon {
+        width: 27% !important;
+    }
+    .services .main-services .service-icon .service-icon {
+        font-size: 1.5em !important;
+    }
+    .services .main-services .bonty-moreOne {
+        width: 90% !important;
+    }
+    .services .main-services .bonty-moreTwo {
+        width: 90% !important;
+    }
+    .services .main-services .bonty-moreThree {
+        width: 90% !important;
+    }
+    .burger {
+        display: none !important;
+    }
+    html body .header .nav-list .nav-bar .list-item a {
+        font-size: 0.99rem !important; 
+    }
+    #time {
+        font-size: 1.15rem !important;
+    }
+}
+@media screen and (max-width: 768px){
+    .services .main-services .service-icon {
+        width: 27% !important;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}   
