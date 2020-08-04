@@ -2,7 +2,7 @@
 @media only screen and (max-width: 425px) {
     html body .header .logo {
         position: absolute;
-        top: 16px !important;
+        top: 17px !important;
         width: 40% !important;
     }
     html body .header .nav-list {
@@ -23,6 +23,10 @@
     html body .header {
         transition: 0.5s all ease;
     }
+    html body .cover .cover-content {
+        position: absolute;
+        top: 163px;
+    }
     .burger {
         top: 43px;
         left: 360px;
@@ -34,6 +38,8 @@
     }
     .height-resp{
         height: 80px !important;
+        position: absolute;
+        width: 100%;
     }
     html body .header .nav-list .nav-bar .list-item:nth-child(1) .my-icon {
         margin: 0 0 0 223px;
@@ -90,12 +96,12 @@
         bottom: 2px !important;
     }
     html body .cover .cover-content h1 {
-        font-size: 6rem !important;
+        font-size: 5rem !important;
     }
     html body .cover .cover-content p {
         font-size: 1rem !important;
-    width: 53% !important;
-    margin: -33px 0 0px 169px !important;
+        width: 65% !important;
+        margin: -33px 0 0px 108px !important;
     }
     footer .main-footer .footer-call p {
         font-size: 1.7rem !important;
